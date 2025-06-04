@@ -38,16 +38,16 @@ const links = ['GitHub ', 'Frontend Mentor ', 'LinkedIn', 'Twitter', 'Instagram'
 .profile {
   background-color: var(--color-grey-800);
   width: 100%;
-  max-width: calc(var(--layout-mobile) - 1rem);
+  max-width: calc(var(--layout-mobile) - 0.5rem);
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.2rem;
+  padding: 2.6rem;
   gap: 1.5rem;
 
   .image-avatar {
-    width: 5.4remrem;
+    width: 5.4rem;
     height: 5.4rem;
     border-radius: 100%;
   }
