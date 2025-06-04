@@ -1,6 +1,7 @@
+<script setup lang="ts">
+import MainSection from './components/MainSection.vue'
+</script>
+
 <template>
-  <main>
-    <h1>Helooo</h1>
-    <p>bloppp</p>
-  </main>
+  <MainSection />
 </template>
