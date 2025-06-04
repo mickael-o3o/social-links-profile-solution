@@ -3,7 +3,8 @@
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Mickael-o3o</a>.
+      Coded by
+      <a href="https://github.com/mickael-o3o/social-links-profile-solution.git">Mickael-o3o</a>.
     </div>
   </footer>
 </template>
