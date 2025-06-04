@@ -10,7 +10,7 @@
 
 <style>
 .attribution {
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
   background-color: var(--color-grey-900);
   padding: 2rem;
