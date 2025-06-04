@@ -1,8 +1,27 @@
-@use './base/colors' as *;
-@use './base/layout' as *;
-@use './base/typography' as *;
+@use './base/colors';
+@use './base/layout';
+@use './base/typography';
 
 :root {
+  --color-green: #{colors.$green};
+  --color-white: #{colors.$white};
+  --color-grey-700: #{colors.$grey-700};
+  --color-grey-800: #{colors.$grey-800};
+  --color-grey-900: #{colors.$grey-900};
+
+  --layout-mobile: #{layout.$mobile};
+  --layout-desktop: #{layout.$desktop};
+
+  --font-size-paragraph: #{typography.$size-paragraph};
+  --font-family: '#{typography.$family}';
+  --font-weights-400: #{typography.$weights-400};
+  --font-weights-600: #{typography.$weights-600};
+  --font-weights-700: #{typography.$weights-700};
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
 
 *,
@@ -18,4 +37,12 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font: {
+    family: var(--font-family), sans-serif;
+    weight: var(--font-weights-400);
+  }
+}
+
+p {
+  font-size: var(--font-size-paragraph);
 }

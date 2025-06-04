@@ -1,0 +1,4 @@
+@use '../utils.scss';
+
+$mobile: utils.calc-rem(375);
+$desktop: utils.calc-rem(1440);
