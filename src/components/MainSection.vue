@@ -10,6 +10,8 @@ const links = ['GitHub ', 'Frontend Mentor ', 'LinkedIn', 'Twitter', 'Instagram'
           src="/images/avatar-jessica.jpeg"
           alt="a picture of Jessica"
           class="c-profile__image-avatar"
+          width="176px"
+          height="176px"
         />
         <div class="c-profile__informations">
           <h1 class="c-profile__user-name">Jessica Randall</h1>
