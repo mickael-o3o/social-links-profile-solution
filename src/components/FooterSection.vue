@@ -1,11 +1,13 @@
 <template>
   <footer>
-    <div class="attribution">
+    <p class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by
-      <a href="https://github.com/mickael-o3o/social-links-profile-solution.git">Mickael-o3o</a>.
-    </div>
+      <a href="https://github.com/mickael-o3o/social-links-profile-solution.git" target="_blank"
+        >mickael-o3o</a
+      >.
+    </p>
   </footer>
 </template>
 
